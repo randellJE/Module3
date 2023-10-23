@@ -29,4 +29,3 @@ const inigo = {
 
 inigo.greeting(westley)
 inigo.greeting(rugen)
-
