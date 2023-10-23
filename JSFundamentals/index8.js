@@ -19,5 +19,11 @@ const fredericksburg = {
     population: 29_126,
     state: 'VA',
     founded: '1728',
-    timezone: 'EST/EDT'
+    timezone: 'America/New_York'
+}
+
+function printObject(arg) {
+    for (const key in arg) {
+        console.log(`${key}: ${arg[key]}`)
+    }
 }
