@@ -1,3 +1,4 @@
+// Section 6:
 // a) Complete the inigo object by adding a lastName property and including it in the
 // greeting.
 // b) Complete getCatchPhrase so that if the person argument has 6 fingers, it instead
