@@ -31,3 +31,5 @@ let lessThan2 = thirty < four
     // The value is flase (bool)
     // These strings are compared lexicographically
     // Add parseInt to thirty or four in order to output the desired answer
+
+console.log(lessThan1)
