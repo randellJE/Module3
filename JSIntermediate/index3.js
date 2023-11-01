@@ -41,6 +41,18 @@ function replaceMiddleAnimal(array, newValue) {
 console.log(replaceMiddleAnimal(animals, 'Panda'))
 
 
-// function findMatchingAnimals(array, beginsWith) {
-//     if (array.)
-// }
+function findMatchingAnimals(array, beginsWith) {
+    
+    const lowerBeginsWith = beginsWith.toLowerCase()
+    
+    const matchingsAnimals = array.filter((animal) => {
+        const lowerAnimal = animal.toLowerCase()
+
+        return lowerAnimal.startsWith(lowerBeginsWith)
+    });
+
+    return matchingsAnimals
+
+}
+
+console.log(findMatchingAnimals(animals, 'a'))
