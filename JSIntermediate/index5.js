@@ -40,11 +40,11 @@
 
 //a
 
+// JavaScript uses binary floating-point representation to store numbers
 
 
 
 //b
-
 
 // function currencyAddition(float1, float2) {
 //     const int1 = Math.round(float1 * 100)
@@ -62,6 +62,7 @@
 // const tenCents = .1
 
 // console.log(currencyAddition(twentyCents, tenCents))
+
 
 
 //c
@@ -110,6 +111,8 @@
 
 
 //d
+
+
 
 // function currencyOperation(float1, float2, operation, numDecimals = 2) {
 //     const factor = Math.pow(10, numDecimals);
