@@ -5,6 +5,7 @@
 // b) Create variants of the camelCase function that use different types of for loops, and
 // c) with and without the conditional operator.
 
+
 //for
 // function camelCase(cssProp) {
 //     const parts = cssProp.split("-")
@@ -15,7 +16,8 @@
 //     return parts.join('')
 // }
 
-//for with if
+
+//for of with if
 // function camelCase(cssProp) {
 //     const parts = cssProp.split('-')
 
@@ -30,6 +32,20 @@
 //     return parts.join('')
 // }
 
+
+// //for of without if
+// function camelCase(cssProp) {
+//     const parts = cssProp.split('-')
+
+//     for (i = 1; i < parts.length; i++) {
+//         for (let char of parts[1]) {
+//             parts[i] = parts[i].charAt(0).toUpperCase() + parts[i].slice(1)
+//         }
+//     }
+//     return parts.join('')
+// }
+
+
 //for conditionL OP
 // function camelCase(cssProp) {
 //     const parts = cssProp.split('-')
@@ -39,21 +55,6 @@
 //     }
 //     return parts.join('');
 // }
-
-  
-//for of
-function camelCase(cssProp) {
-    const parts = cssProp.split('-')
-
-    for (i = 1; i < parts.length; i++) {
-        for (let char of parts[1]) {
-            parts[i] = parts[i].charAt(0).toUpperCase() + parts[i].slice(1)
-        }
-    }
-    return parts.join('')
-}
-
-
 
 
 console.log(camelCase('margin-left')) // marginLeft
