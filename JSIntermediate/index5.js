@@ -2,8 +2,8 @@
 // // following:
 
 
-let twentyCents = 0.20
-let tenCents = 0.10
+// let twentyCents = 0.20
+// let tenCents = 0.10
 
 // console.log(`${twentyCents} + ${tenCents} = ${twentyCents + tenCents}`)
 // // 0.2 + 0.1 = 0.30000000000000004
@@ -40,16 +40,11 @@ let tenCents = 0.10
 
 //a
 
-// The code does not include a parseFloat
-
-let fixedTwenty = parseFloat(twentyCents.toFixed(2));
-let fixedTen = parseFloat(tenCents.toFixed(2));
-console.log(fixedTwenty + fixedTen);
+// JavaScript uses binary floating-point representation to store numbers
 
 
 
 //b
-
 
 // function currencyAddition(float1, float2) {
 //     const int1 = Math.round(float1 * 100)
@@ -67,6 +62,7 @@ console.log(fixedTwenty + fixedTen);
 // const tenCents = .1
 
 // console.log(currencyAddition(twentyCents, tenCents))
+
 
 
 //c
@@ -115,6 +111,8 @@ console.log(fixedTwenty + fixedTen);
 
 
 //d
+
+
 
 // function currencyOperation(float1, float2, operation, numDecimals = 2) {
 //     const factor = Math.pow(10, numDecimals);
