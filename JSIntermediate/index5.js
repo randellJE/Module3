@@ -2,8 +2,8 @@
 // // following:
 
 
-// let twentyCents = 0.20
-// let tenCents = 0.10
+let twentyCents = 0.20
+let tenCents = 0.10
 
 // console.log(`${twentyCents} + ${tenCents} = ${twentyCents + tenCents}`)
 // // 0.2 + 0.1 = 0.30000000000000004
@@ -40,6 +40,11 @@
 
 //a
 
+// The code does not include a parseFloat
+
+let fixedTwenty = parseFloat(twentyCents.toFixed(2));
+let fixedTen = parseFloat(tenCents.toFixed(2));
+console.log(fixedTwenty + fixedTen);
 
 
 
