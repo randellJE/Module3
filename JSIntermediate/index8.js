@@ -2,10 +2,10 @@
 // with their phone numbers.
 
 
-const phoneBookABC = new Map() //an empty map to begin with
-phoneBookABC.set('Annabelle', '0412312343')
-phoneBookABC.set('Barry', '0433221117')
-phoneBookABC.set('Caroline', '0455221182')
+// const phoneBookABC = new Map() //an empty map to begin with
+// phoneBookABC.set('Annabelle', '0412312343')
+// phoneBookABC.set('Barry', '0433221117')
+// phoneBookABC.set('Caroline', '0455221182')
 
 
 // a) Create a new phoneBookDEF Map to store names beginning with D, E or F
@@ -19,42 +19,42 @@ phoneBookABC.set('Caroline', '0455221182')
 
 //A
 
-const phoneBookDEF = new Map()
-phoneBookDEF.set('Daniel', '5408085533')
-phoneBookDEF.set('Earl', '8406918008')
-phoneBookDEF.set('Francene', '4658423658')
+// const phoneBookDEF = new Map()
+// phoneBookDEF.set('Daniel', '5408085533')
+// phoneBookDEF.set('Earl', '8406918008')
+// phoneBookDEF.set('Francene', '4658423658')
 
 
 //B
 
-defContacts = [
-    ['Daniel', '5408085533'],
-    ['Earl', '8406918008'],
-    ['Francene', '4658423658']
-]
+// defContacts = [
+//     ['Daniel', '5408085533'],
+//     ['Earl', '8406918008'],
+//     ['Francene', '4658423658']
+// ]
 
 
 //C
 
-phoneBookABC.set('Caroline', '4564564566')
+// phoneBookABC.set('Caroline', '4564564566')
 
 
 //D
 
-function printPhoneBook(contacts) {
-    for (const [name, phoneNumber] of contacts) {
-        console.log(`${name}: ${phoneNumber}`)
-    }
-}
+// function printPhoneBook(contacts) {
+//     for (const [name, phoneNumber] of contacts) {
+//         console.log(`${name}: ${phoneNumber}`)
+//     }
+// }
 
-printPhoneBook(phoneBookDEF)
+// printPhoneBook(phoneBookDEF)
 
 
 //E
 
-const phoneBook = new Map([...phoneBookDEF, ...phoneBookABC])
+// const phoneBook = new Map([...phoneBookDEF, ...phoneBookABC])
 
 
 //F
 
-console.log(phoneBook)
+// console.log(phoneBook)
