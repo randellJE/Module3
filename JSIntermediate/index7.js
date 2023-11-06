@@ -26,7 +26,7 @@ const books = [
 // book with the most recent publication date.
 
 
-//a
+//A
 
 // function getBookTitle(bookId) {
 //     const result = books.find(book => book.id === bookId)
@@ -36,15 +36,56 @@ const books = [
 // console.log(getBookTitle(3))
 
 
-//b
+//B
 
-const getOldBooks = () => {
-    for (book of books) {
-        if (book < 1950) {
-            const result = books.filter(book => book.year < 1950)
-            return result
-        }
-    }
-}
+// const getOldBooks = () => {
+//     const result = books.filter(book => book.year < 1950)
+//     return result
+// }
 
-console.log(getOldBooks())
+// console.log(getOldBooks(books))
+
+
+//C
+
+// function addGenre(books) {
+//     const bookWithGenre = books.map(book => {
+//         return {
+//             ...book,
+//             genre: 'classic'
+//         }
+//     })
+//     return bookWithGenre
+// }
+
+// const bookWithGenre = addGenre(books)
+
+// console.log(bookWithGenre)
+
+
+//D
+
+// function getTitles(authorInitial) {
+//     const bookAuthor = books.filter(book => book.author[0] === authorInitial)
+//     const titles = bookAuthor.map(book => book.title)
+//     return titles
+// }
+
+// console.log(getTitles('F'))
+
+
+//E
+
+// function latestBook() {
+//     let oldestRelease = 1925
+
+//     books.forEach(book => {
+//         if (book.year > oldestRelease) {
+//             oldestRelease = book.year
+//         }
+//     })
+//     return books.find(book => book.year === oldestRelease)
+// }
+
+
+// console.log(latestBook())
