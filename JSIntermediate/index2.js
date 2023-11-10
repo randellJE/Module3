@@ -28,3 +28,7 @@ function truncate(str, max) {
 console.log(truncate('Hi how are you doing tosay?', 8))
 
 console.log(truncate('This text will be truncated if it is too long', 25))
+
+
+console.log(truncate('What is my favorite color', 4))
+console.log('What is my favorite color')
