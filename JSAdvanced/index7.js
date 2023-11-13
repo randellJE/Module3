@@ -46,7 +46,7 @@ function Student(name, age, gender, cohort) {
     
     this.cohort = cohort;
 
-    Object.prototype.toString = function() {
+    Student.prototype.toString = function() {
         return `Name = ${this.name}, Age = ${this.age}, Gender = ${this.gender}, Cohort = ${this.cohort}`
     }
 }
