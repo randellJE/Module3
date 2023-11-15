@@ -1,4 +1,4 @@
-// Section 8: We can delay execution of a function using setTimeout, where we need to provide both
+// Section 9: We can delay execution of a function using setTimeout, where we need to provide both
 // the callback function and the delay after which it should execute.
 
 // a) Create a promise-based alternative randomDelay() that delays execution for a
